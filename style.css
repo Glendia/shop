@@ -45,7 +45,7 @@ header {
 
 .logo img {
 
-    height: auto;
+    height: 40px;
     width: 160px;
 }
 
@@ -67,7 +67,7 @@ li a {
     display: block;
     color: rgb(41, 41, 41);
     text-align: center;
-    padding: 0 16px;
+    padding: 0 30px;
     text-decoration: none;
     font-size: 16px;
     font-weight: 700;
@@ -96,18 +96,29 @@ li a:hover {
 
 .banner {
     margin-top: 16px;
-    height: 476px;
+    height: 600px;
     width: 100%;
     float: left;
-    background: url(https://shop.lovestu.com/uploads/20240325/c3433ceef2262650bfa804ef0804c38d.png);
-    background-position: center;
+    background: url('https://shop.lovestu.com/uploads/20240325/c3433ceef2262650bfa804ef0804c38d.png');
     background-size: cover;
+    background-position:center
+}
+.banner .container{
+    padding: 150px 0;
+}
+.banner .title{
+    font-size: 52px;
+    font-weight: 500;
+    letter-spacing: 0;
+    color: #ffffff;
+    text-align: center;
 }
 .banner .info{
     margin: auto;
     width: 1200px;
     height: 100%;
 }
+
 .main{
     width: 1200px;
     height: 100%;

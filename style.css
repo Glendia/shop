@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'PingFangSC';
+    src: url('https://cdn.workstatic.cn/font/PingFang/PingFang_SC_Regular.ttf') format(ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #f5f6fb;
+    margin: auto;
+    font-family: PingFangSC,sans-serif;
+}
+
+header {
+    height: 80px;
+    line-height: 80px;
+    background-color: #ffffffa6;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #00000021;
+    top: 0;
+    position: sticky;
+}
+
+.nav {
+    width: 1200px;
+    margin: auto;
+    height: 80px;
+    display: flex;
+}
+
+.logo {
+    width: 160px;
+    height: auto;
+    line-height: 60px;
+    display: flex;
+    align-items: center;;
+
+}
+
+.logo img {
+
+    height: auto;
+    width: 160px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    align-items: center;
+    text-align: center;
+    margin-left: 40px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(41, 41, 41);
+    text-align: center;
+    padding: 0 16px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+li a:hover {
+    color: #3787ff;
+}
+
+.login {
+    margin-left: auto;
+    width: 160px;
+    height: auto;
+    line-height: 60px;
+    display: flex;
+    align-items: center;;
+
+}
+
+.login img {
+
+    margin-left: auto;
+    height: auto;
+    width: 160px;
+}
+
+.banner {
+    margin-top: 16px;
+    height: 476px;
+    width: 100%;
+    float: left;
+    background: url(https://pc.qq.com/softmgr_detail/img/index-banner-index.png);
+    background-size: cover;
+}
+.banner .info{
+    margin: auto;
+    width: 1200px;
+    height: 100%;
+}
+.main{
+    width: 1200px;
+    height: 100%;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+}
+.main img{
+    margin: 16px 0 16px 0 ;
+    border-radius: 20px;
+}
+footer{
+    height: 120px;
+    width: 100%;
+    background-color: #707070;
+    color: #fff;
+    font-size: 18px;
+}
+.ba{
+    width: 1200px;
+    margin: auto;
+}

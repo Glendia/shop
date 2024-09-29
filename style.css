@@ -31,6 +31,7 @@ header {
     margin: auto;
     height: 80px;
     display: flex;
+    padding-right: 160px;
 }
 
 .logo {
@@ -50,12 +51,11 @@ header {
 
 ul {
     list-style-type: none;
-    margin: 0;
+    margin: auto;
     padding: 0;
     overflow: hidden;
     align-items: center;
     text-align: center;
-    margin-left: auto;
     font-family: 'PingFang SC',sans-serif;
 }
 
@@ -95,7 +95,6 @@ li a:hover {
 }
 
 .banner {
-    margin-top: 16px;
     height: 600px;
     width: 100%;
     float: left;
